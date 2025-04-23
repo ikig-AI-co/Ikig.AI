@@ -1,3 +1,4 @@
+![Ø - 2](https://github.com/user-attachments/assets/3a27aaf1-8807-4577-b378-55ff5f1dde52)
 # Ikig.AI
 We all have abilities
 <!DOCTYPE html>
