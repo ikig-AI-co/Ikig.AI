@@ -85,3 +85,13 @@
   <img src="ikigai-logo.png" alt="Ikigai Logo" class="logo">
 </body>
 </html>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(100,100)">
+    <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(0)" />
+    <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(15)" />
+    <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(30)" />
+    <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(45)" />
+    <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(60)" />
+    <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(75)" />
+  </g>
+</svg>
