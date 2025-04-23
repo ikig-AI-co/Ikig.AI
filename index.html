@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ikig.AI</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Glacial Indifference', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    img.logo {
+      width: 200px;
+      opacity: 0;
+      animation: fadeInZoom 2s ease-out forwards;
+    }
+
+    .text {
+      margin-top: 20px;
+      font-size: 24px;
+      opacity: 0;
+      animation: showText 2s ease-out forwards;
+      animation-delay: 2s;
+    }
+
+    @keyframes fadeInZoom {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes showText {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo Ikig.AI" class="logo">
+  <div class="text">Todos nós temos habilidades</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ikig.AI</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Glacial Indifference', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    img.logo {
+      width: 200px;
+      opacity: 0;
+      animation: fadeInZoom 2s ease-out forwards;
+    }
+
+    .text {
+      margin-top: 20px;
+      font-size: 24px;
+      opacity: 0;
+      animation: showText 2s ease-out forwards;
+      animation-delay: 2s;
+    }
+
+    .button {
+      margin-top: 30px;
+      padding: 10px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      background-color: #1e90ff;
+      color: white;
+      cursor: pointer;
+      opacity: 0;
+      animation: showButton 2s ease-out forwards;
+      animation-delay: 4s;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #187bcd;
+    }
+
+    @keyframes fadeInZoom {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes showText {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes showButton {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo Ikig.AI" class="logo">
+  <div class="text">Todos nós temos habilidades</div>
+  <button class="button" onclick="startJourney()">Começar</button>
+
+  <script>
+    function startJourney() {
+      alert("Em breve: Aqui começa sua jornada no Ikig.AI!");
+      // No futuro pode redirecionar assim:
+      // window.location.href = "perguntas.html";
+    }
+  </script>
+</body>
+</html>
