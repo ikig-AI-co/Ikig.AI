@@ -1,3 +1,4 @@
+![ikigai-logo png](https://github.com/user-attachments/assets/2b63bff9-c88a-410a-b552-3a5d374d453c)
 ![ logo png](https://github.com/user-attachments/assets/0e9ef06e-761f-4438-8bcb-699c3dc3f5c6)
 <!DOCTYPE html>
 <html lang="pt-BR">
