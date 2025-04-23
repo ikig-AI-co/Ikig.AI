@@ -161,3 +161,47 @@
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ikigai Logo</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    svg {
+      width: 200px;
+      height: 200px;
+    }
+    .circle {
+      fill: none;
+      stroke: white;
+      stroke-width: 4;
+      transform-origin: center;
+      animation: spin 10s infinite linear;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 200 200">
+    <g>
+      <!-- Create multiple offset circles for the layered effect -->
+      <circle class="circle" cx="100" cy="100" r="60" />
+      <circle class="circle" cx="100" cy="100" r="62" />
+      <circle class="circle" cx="100" cy="100" r="64" />
+      <circle class="circle" cx="100" cy="100" r="66" />
+      <circle class="circle" cx="100" cy="100" r="68" />
+    </g>
+  </svg>
+</body>
+</html>
