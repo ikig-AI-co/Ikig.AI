@@ -38,3 +38,49 @@
   <img src="logo.png" alt="Logo Ikig.AI" class="logo">
 </body>
 </html>
+![ikigai-logo png](https://github.com/user-attachments/assets/7af642e8-ff95-438b-a94a-e78dda19b2ad)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ikigai</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .logo {
+      opacity: 0;
+      transform: scale(0.8);
+      animation: logoFade 4s forwards;
+    }
+
+    @keyframes logoFade {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      20% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      80% {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1.1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="ikigai-logo.png" alt="Ikigai Logo" class="logo">
+</body>
+</html>
