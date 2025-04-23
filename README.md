@@ -95,3 +95,4 @@
     <circle r="60" stroke="white" stroke-width="2" fill="none" transform="rotate(75)" />
   </g>
 </svg>
+<body style="background-color: black;">
